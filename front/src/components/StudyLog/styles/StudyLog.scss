@@ -1,0 +1,94 @@
+.studyLog {
+  display: flex;
+  margin: 3vh 0 1vh;
+}
+
+.yearlyStudyLog {
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.month-label {
+  width: 12px;
+  height: 12px;
+  margin-bottom: 6px;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.week-label{
+  display: inline-flex;
+  flex-direction: column;
+  width: 20px;
+  height: 105px;
+  margin-top: 15px;
+  margin-right: 8px;
+}
+
+.day-label {
+  width: 20px;
+  height: 12px;
+  margin-bottom: 3px;
+  font-size: 10px;
+  font-weight: 200;
+}
+
+.weeklyStudyLog {
+  display: inline-block;
+  width: 12px;
+  height: 120px;
+  margin-right: 3px;
+}
+
+.dailyStudyLog {
+  width: 12px;
+  height: 12px;
+  border-radius: 99vh;
+  margin-bottom: 3px;
+}
+
+// .green {
+//   background-color: rgb(17, 73, 17);
+//   background-color: rgb(6, 100, 6);
+//   background-color: rgb(12, 129, 31);
+//   background-color: rgb(85, 155, 78);
+//   background-color: rgba(175, 226, 108, 0.658);
+//   background-color: rgb(211, 211, 211);
+// }
+
+// .blue {
+//   background-color: rgb(8, 83, 153);
+//   background-color: rgb(31, 119, 201);
+//   background-color: rgba(69, 143, 212, 0.89);
+//   background-color: rgba(93, 161, 201, 0.836);
+//   background-color: rgba(144, 195, 219, 0.781);
+//   background-color: rgb(211, 211, 211);
+// }
+
+.purple {
+  background-color: rgb(100, 7, 92);
+  background-color: rgb(136, 53, 123);
+  background-color: rgb(167, 93, 154);
+  background-color: rgb(201, 154, 192);
+  background-color: rgb(235, 205, 236);
+  background-color: rgb(211, 211, 211);
+}
+
+// .brown {
+//   background-color: rgba(102, 53, 7, 0.904);
+//   background-color: rgba(134, 73, 17, 0.836);
+//   background-color: rgba(138, 93, 51, 0.904);
+//   background-color: rgba(173, 135, 96, 0.945);
+//   background-color: rgb(207, 180, 154);
+//   background-color: rgb(211, 211, 211);
+// }
+
+// .beige {
+//   background-color: rgb(171, 131, 89);
+//   background-color: rgb(170, 144, 117);
+//   background-color: rgb(202, 172, 140);
+//   background-color: rgb(216, 192, 166);
+//   background-color: rgb(233, 212, 190);
+//   background-color: rgb(211, 211, 211);
+// }

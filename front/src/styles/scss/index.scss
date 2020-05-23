@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  margin-top: 78px;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  background-color: #ececf0;
+  font-family: 'NanumSquare', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  .main-color { background-color: #527062 }
+  .sub-color { background-color: #8dab9f }
+  .third-color { background-color: #3f3f48 }
+  .fourth-color { background-color: #dbcfc8 }
+  .fifth-color { background-color: #d7d8df }
+  .sixth-color { background-color: #ececf0 }
+
+  .font-weight-normal { font-weight: 400 }
+  .font-weight-bold	{ font-weight: 700 }
+  .font-weight-bolder	{ font-weight: 800 }
+  .font-weight-light { font-weight: 300 }
+  
+  // widthSize: 'XL' >= 1200 > 'LG' >= 992 > 'MD' >= 768 > 'SM' >= 576 > 'XS'
+  .lg-body-content {
+    margin: 0 10vw; 
+  }
+  .md-body-content {
+    margin: 0 5vw; 
+  }
+  .sm-body-content {
+    margin: 0 1vw;
+  }
+
+  .pointerNone { pointer-events: none; }
+
+  input:focus { outline:none; }
+
+  .detailPage {
+    background-color: whitesmoke;
+    padding-top: 2vw;
+    border-radius: 1vw;
+
+    .board-userinfo {
+      display: flex;
+      align-items: center;
+      padding: 0 3vh;
+      margin-bottom: 0.5rem;
+
+      .board-userinfo-profile {
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+      }
+
+      .board-userinfo-name {
+        margin-left: 0.5rem;
+        font-size: 20px;
+        font-weight: 100;
+      }
+    }
+    
+  }
+}
+
+/* input 기본 스타일 초기화 */
+// input {
+//   -webkit-appearance: none;
+//      -moz-appearance: none;
+//           appearance: none;
+// }
+
+/* IE10 이상에서 input box 에 추가된 지우기 버튼 제거 */
+input::-ms-clear { display: none; }
+
+/* input type number 에서 화살표 제거 */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}

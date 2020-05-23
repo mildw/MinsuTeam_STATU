@@ -1,0 +1,135 @@
+.calendarDayContainer {
+  border: 0.5px solid rgb(233, 233, 233);
+  border-left: white;
+  border-right:white;
+  min-height: 10vh;
+  position: relative;
+  cursor: pointer;
+}
+
+.calendarNum {
+  display: inline-block;
+  font-size: 2vh;
+  font-weight: 500;
+  position: relative;
+  margin: 0;
+  left: 10%;
+  top: 5%;
+}
+
+.calendarpassedDate {
+  background-color: rgb(233, 233, 233);
+  font-size: 18px;
+  font-weight: 200;
+  color: gray;
+}
+
+.indent {
+  width: 1.5vh;
+}
+
+.subDataList {
+  position: relative;
+  margin-top: 1vh;
+}
+
+.subDataItem {
+  display: inline-block;
+  position: absolute;
+  margin-top: 0.5vh;
+  border-radius: 0.6vh;
+  z-index: 50;
+  color: rgb(15, 15, 15);
+  font-size: 1.6vh;
+  font-weight: 700;
+  background-repeat:no-repeat;
+}
+
+.dayDataList {
+  display: inline-block;
+  position: relative;
+  margin-top: 1vh;
+  margin-bottom: 2.5vh;
+  padding: 0;
+  z-index: 50;
+  font-size: 1.5vh;
+  font-weight: 400;
+  width: 100%;
+  // overflow: hidden;
+}
+
+.dayDataItem {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.dayDataContent {
+  display: inline-block;
+  width: 14vh;
+  overflow: hidden;
+  margin-right: 1vh;
+}
+
+.dayListCircle {
+  display: inline-block;
+  flex: 0 0 auto;
+  margin: 0.6vh;
+  width: 0.9vh;
+  height: 0.9vh;
+  border-radius: 100vh;
+  //opacity: 90%;
+}
+
+.passedDate {
+  background-color: lightgrey;
+}
+
+.draggedDays {
+  z-index: 100;
+  border-width: 1px;
+  background-color:#BE3FD110;
+  
+}
+
+///// Overview Calendar /////
+
+.calendarDayContainer-overview {
+  border: 0.5px solid rgb(233, 233, 233);
+  border-left: white;
+  border-right:white;
+  min-height: 5vh;
+  position: relative;
+  cursor: pointer; 
+}
+
+.calendarNum-overview {
+  display: inline-block;
+  font-size: 0.5rem;
+  position: relative;
+  margin: 0;
+  left: 10%;
+  top: 5%;
+}
+
+.subDataList-overview {
+  position: relative;
+}
+
+.subDataItem-overview {
+  display: inline-block;
+  position: absolute;
+  border-radius: 0.6vh;
+  z-index: 50;
+  color: rgb(15, 15, 15);
+  font-size: 0.5rem;
+  background-repeat:no-repeat;
+}
+
+.dayDataList-overview {
+  display: inline-block;
+  position: relative;
+  z-index: 50;
+  font-size: 0.6rem;
+}

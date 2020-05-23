@@ -1,0 +1,119 @@
+.Modal-overlay {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.16);
+}
+
+.Modal {
+  position: fixed;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+  
+  .modalHeader {
+    margin: 16px 30px 0 30px;
+    p.title {
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 0;
+    }
+    .divTag {
+      font-size: 13px;
+      display: block;
+      text-align: center;
+      .checkBox {
+        width: 15px;
+        height: 15px;
+        vertical-align: middle;
+        margin-left: 2px;
+        border: none;
+      }
+    }
+
+  }
+  .modalContent {
+    .content {
+      margin: 16px 30px;
+      p {
+        padding: 8px;
+        font-size: 12pt;
+        color: #999;
+      }
+    }
+    .modal-button {
+      position: relative;
+      width: 100%;
+      margin-top: 16px;
+      .selectCancleButton {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+      }
+      
+      .cancleBtn {
+        border-radius: 0 0 10px 10px;
+      }
+  }
+    // .button {
+    //   width: 100%;
+    //   padding: 12px 0;
+    //   border-radius: 0 0 10px 10px;
+    //   background-color: #ad7cef;
+    //   font-size: 13pt;
+    //   color: white;
+    //   border: 0;
+    //   cursor: pointer;
+    //   &:hover {
+    //     background-color: #7f49c8;
+    //   }
+    //   &:active {
+    //     background-color: #7e49c8;
+    //   }
+    // }
+  }
+  .colorContainer {
+    margin: 3px 2px 0 0;
+    // width: 20px;
+    // min-width: 5vw;
+    width: 20px;
+    min-height: 20px;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+  }
+  .chosenColor {
+    // min-width: 5.5vw;
+    width: 25px;
+    height: 25px;
+    min-height: 22px;
+    min-width: 22px;
+    box-shadow: 1.5px 1.5px 1.5px rgba(119, 119, 119, 0.301);
+  }
+}
+
+.modalInput {
+  background-color: rgba(0, 0, 0, 0.048);
+  border: none;
+  border-radius: 6px;
+  box-shadow: none;
+  margin-bottom: 0.4rem;
+}
+
+.modalTime {
+  padding-left: 5px;
+}
+
+

@@ -1,0 +1,284 @@
+.authTemplateBlock {
+    margin-top: 6rem;
+    background: #e9ecef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.whiteBox {
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.025);
+    padding: 2rem;
+    width: 360px;
+    background: white;
+    border-radius: 10px;
+}
+
+.formTitle {
+    margin: 0;
+    color: #343a40;
+    margin-bottom: 1rem;
+    display: block;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.inputAuth {
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid #8dab9f55;
+    padding-bottom: 0.5rem;
+    outline: none;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.inputAuth:focus {
+    border-bottom: 1px solid #495057;
+}
+
+.inputNeedCheck .inputAuth {
+    width: 78%;
+    margin-right: 0.5rem;
+}
+
+.btnSubmit {
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 0.25rem 1rem;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    background: #527062;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    width: 100%;
+    font-size: 1.125rem;
+    margin-top: 1rem;
+}
+
+.btnSubmit:hover {
+    background: #527062ee;
+}
+
+.btnCheck {
+    border: none;
+    border-radius: 2px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0.25rem 1rem;
+    color: white;
+    outline: none;
+    background: #527062;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.btnCheck:hover {
+    background: #527062ee;
+}
+
+.authFooter {
+    margin-top: 2rem;
+    text-align: right;
+}
+
+.authFooter a {
+    color: #868e96;
+    text-decoration: underline;
+}
+
+.authFooter a:hover {
+    color: #212529;
+}
+
+.errorMsg {
+    color: red;
+    text-align: center;
+    font-size: 0.875rem;
+    margin-top: 1rem;
+}
+
+.checkMsg {
+    color: #343a40;
+    text-align: center;
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.categoryBlock {
+    margin-top: 1rem;
+    background: #e9ecef44;
+    padding: 0.25rem 1rem;
+}
+
+.categoryTitle {
+    margin: 0;
+    color: #343a40;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+}
+
+.infoHeader {
+    text-align: center;
+    font-size: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.infoHeader a {
+    color: #868e96;
+    text-decoration: underline;
+}
+
+.infoHeader a:hover {
+    color: #212529;
+}
+
+.categoryBox {
+    height: 275px;
+    overflow-y: scroll;
+}
+
+.categoryItemBox {
+    padding: 0.5rem 1rem;
+    border-bottom: 0.5px solid #868e9644;
+}
+
+.subCategoryItemBox {
+    padding: 0.5rem 1rem;
+    border-bottom: 0.5px solid #868e9644;
+    font-size: 0.75rem;
+}
+
+.categoryBox::-webkit-scrollbar { width: 5.2px; } /* 스크롤 바 */
+.categoryBox::-webkit-scrollbar-track { background-color:white; } /* 스크롤 바 밑의 배경 */
+.categoryBox::-webkit-scrollbar-thumb { background: #868e9644; } /* 실질적 스크롤 바 */
+.categoryBox::-webkit-scrollbar-thumb:hover { background: #212529; } /* 실질적 스크롤 바 위에 마우스를 올려다 둘 때 */
+.categoryBox::-webkit-scrollbar-thumb:active { background: #212529; } /* 실질적 스크롤 바를 클릭할 때 */
+.categoryBox::-webkit-scrollbar-button { display: none; } /* 스크롤 바 상 하단 버튼 */
+
+.file-upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 275px;
+}
+
+.file-upload-btn {
+    width: 100%;
+    height: 100%;
+    background: #8dab9f;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #8dab9f;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+}
+  
+.file-upload-btn:hover {
+    background: #dbcfc8;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+  
+.file-upload-btn:active {
+    border: 0;
+    transition: all .2s ease;
+}
+  
+.file-upload-content {
+    text-align: center;
+    height: 275px;
+}
+  
+.file-upload-input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+}
+  
+.image-upload-wrap {
+    border: 4px dashed #8dab9f;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.image-dropping,
+.image-upload-wrap:hover {
+    background-color: #8dab9f;
+    border: 4px dashed white;
+}
+
+.image-title-wrap {
+    padding: 0 15px 15px 15px;
+    color: #527062;
+}
+  
+.drag-text {
+    text-align: center;
+    font-weight: bold;
+    color: #527062;
+    padding: 60px 0;
+}
+  
+.file-upload-image {
+    min-height: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    max-width: 200px;
+    margin-top: 0.5rem;
+}
+  
+.remove-image {
+    width: 200px;
+    color: #ffffff;
+    font-weight: bold;
+    background: #8dab9f;;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.remove-image:hover {
+    background: #8dab9f88;
+}
+
+input[type=password] {
+    font-family: monospace;
+    &::placeholder {
+        font-family: "NanumSquare";
+    }
+}
+
+.socialLoginBox {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialLoginGoogle {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
